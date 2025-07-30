@@ -5,158 +5,143 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ann Maria Sebastian | AI & ML Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="nav-brand">Ann Maria Sebastian</a>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <header class="hero">
     <div class="hero-content">
       <img src="profile.jpeg" alt="Ann Maria Sebastian" class="profile-pic" />
       <div class="intro">
         <h1>Ann Maria Sebastian</h1>
         <p>AI/ML Enthusiast | Researcher | Problem Solver</p>
-        <a href="#contact" class="btn">📬 Let's Connect</a>
+        <a href="#contact" class="btn">📬 Connect</a>
       </div>
     </div>
   </header>
 
-  <section id="about" class="section">
-    <h2>About </h2>
-   <div style="text-align: justify;"> I am a Computer Science Engineer specializing in Artificial Intelligence and Machine Learning, proudly graduated from Chandigarh University. Throughout my academic journey, I have immersed myself in cutting-edge technologies and hands-on projects that focus on solving real-world challenges using AI. My expertise spans across deep learning, natural language processing, and computer vision—tools I've utilized to build intelligent systems ranging from traffic prediction models using LSTM and CNN to disease diagnosis tools integrating LangChain.
+  <main class="container">
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <div style="text-align: justify;"> I am a Computer Science Engineer specializing in Artificial Intelligence and Machine Learning, proudly graduated from Chandigarh University. Throughout my academic journey, I have immersed myself in cutting-edge technologies and hands-on projects that focus on solving real-world challenges using AI. My expertise spans across deep learning, natural language processing, and computer vision—tools I've utilized to build intelligent systems ranging from traffic prediction models using LSTM and CNN to disease diagnosis tools integrating LangChain.
 I've gained practical exposure through internships, such as with Bharat Electronics Limited, where I conducted vulnerability assessments and contributed to cybersecurity operations. My technical proficiency includes Python, TensorFlow, PyTorch, SQL, and LangChain, while my tools of choice are Jupyter Notebook, GitHub, and Power BI. As a researcher and project leader, I have built AI solutions like fraud detection systems and video frame extraction pipelines, demonstrating my commitment to innovation and excellence in AI-driven problem-solving.
 </div>
-  </section>
+    </section>
 
-  <section id="skills" class="section alt">
-    <h2>Skills</h2>
-    <ul class="skills-grid">
-      <li><strong>Languages:</strong> Python, C++, SQL, Rust</li>
-      <li><strong>Technologies:</strong> TensorFlow, PyTorch, Scikit-learn, LangChain, AR/VR</li>
-      <li><strong>Frontend:</strong> HTML5, CSS3, Figma</li>
-      <li><strong>Tools:</strong> GitHub, Visaul studio, Power BI, Jupyter, Google Colab, Excel, Unity Hub</li>
-      <li><strong>Soft Skills:</strong> Leadership, Communication, Teamwork</li>
-    </ul>
-  </section>
+    <section id="skills" class="section alt">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Languages</h3>
+          <p>Python, C++, SQL, Rust</p>
+        </div>
+        <div class="skill-category">
+          <h3>Technologies</h3>
+          <p>TensorFlow, PyTorch, Scikit-learn, LangChain, AR/VR</p>
+        </div>
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <p>HTML5, CSS3, Figma</p>
+        </div>
+        <div class="skill-category">
+          <h3>Tools</h3>
+          <p>GitHub, Visual Studio, Power BI, Jupyter, Google Colab, Excel, Unity Hub</p>
+        </div>
+      </div>
+    </section>
 
- <section id="projects" class="section">
-  <h2>Projects</h2>
+    <section id="projects" class="section">
+      <h2>Highlighted Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <h3>📸 AI-Powered Video-to-Photo Frame Generator <span class="date">(Current)</span></h3>
+          <p><strong>Overview:</strong> Developed a pipeline that extracts sharp, emotion-neutral, and unique photo frames from videos.</p>
+          <p><strong>Tech Stack:</strong> Python, OpenCV, SQLite, DeepFace, Perceptual Hashing</p>
+        </div>
 
-  <div class="project">
-    <h3>📸 AI-Powered Video-to-Photo Frame Generator <span class="date">(Current)</span></h3>
-    <p><strong>Overview:</strong> Developed a pipeline that extracts sharp, emotion-neutral, and unique photo frames from videos.</p>
-    <p><strong>Tech Stack:</strong> Python, OpenCV, SQLite, DeepFace, Perceptual Hashing</p>
-    <p><strong>Key Contributions:</strong>
-      <ul>
-        <li>Used blur detection to discard low-quality frames.</li>
-        <li>Filtered frames using face detection and emotion analysis.</li>
-        <li>Applied perceptual hashing to remove similar images.</li>
-        <li>Stored output with metadata in SQLite.</li>
-      </ul>
-    </p>
-    <p><strong>Impact:</strong> Automatically generates curated photo frames for thumbnails, documentation, and datasets.</p>
-  </div>
+        <div class="project">
+          <h3>🚦 Beyond Traffic Jams: AI Transport Optimization <span class="date">(Apr 2025)</span></h3>
+          <p><strong>Overview:</strong> Built a deep learning system to predict and optimize real-time traffic using historical data.</p>
+          <p><strong>Tech Stack:</strong> Python, TensorFlow, Keras, LSTM, GRU, CNN</p>
+        </div>
 
-  <div class="project">
-    <h3>🚦 Beyond Traffic Jams: AI Transport Optimization <span class="date">(Apr 2025)</span></h3>
-    <p><strong>Overview:</strong> Built a deep learning system to predict and optimize real-time traffic using historical data.</p>
-    <p><strong>Tech Stack:</strong> Python, TensorFlow, Keras, LSTM, GRU, CNN</p>
-    <p><strong>Key Contributions:</strong>
-      <ul>
-        <li>Collected and preprocessed real-world traffic datasets.</li>
-        <li>Designed hybrid models to handle spatial-temporal patterns.</li>
-        <li>Visualized and evaluated prediction accuracy using Power BI.</li>
-      </ul>
-    </p>
-    <p><strong>Impact:</strong> Achieved 94.6% accuracy. Supports smarter traffic management in urban areas.</p>
-  </div>
+        <div class="project">
+          <h3>🩺 Early Stage Diabetics Prediction using LangChain <span class="date">(Oct 2024)</span></h3>
+          <p><strong>Overview:</strong> Designed a conversational AI model to diagnose diabetes from user-reported symptoms.</p>
+          <p><strong>Tech Stack:</strong> Python, LangChain, OpenAI API, NLP</p>
+        </div>
 
-  <div class="project">
-    <h3>🩺 Early Stage Diabetics Prediction using LangChain <span class="date">(Oct 2024)</span></h3>
-    <p><strong>Overview:</strong> Designed a conversational AI model to diagnose diabetes from user-reported symptoms.</p>
-    <p><strong>Tech Stack:</strong> Python, LangChain, OpenAI API, NLP</p>
-    <p><strong>Key Contributions:</strong>
-      <ul>
-        <li>Built a symptom-to-diagnosis chain using LangChain components.</li>
-        <li>Trained model on public health datasets with NLP pipelines.</li>
-        <li>Created a user-friendly interface for natural language input.</li>
-      </ul>
-    </p>
-    <p><strong>Impact:</strong> Achieved 89% accuracy. Enables early screening via chat-based input.</p>
-  </div>
+        <div class="project">
+          <h3>💳 AI-Based Fraud Detection for Financial Transactions <span class="date">(May 2024)</span></h3>
+          <p><strong>Overview:</strong> Developed a machine learning system to identify fraudulent activities in financial data.</p>
+          <p><strong>Tech Stack:</strong> Python, Scikit-learn, Random Forest, Power BI</p>
+        </div>
+      </div>
+    </section>
 
-  <div class="project">
-    <h3>💳 AI-Based Fraud Detection for Financial Transactions <span class="date">(May 2024)</span></h3>
-    <p><strong>Overview:</strong> Developed a machine learning system to identify fraudulent activities in financial data.</p>
-    <p><strong>Tech Stack:</strong> Python, Scikit-learn, Random Forest, Power BI</p>
-    <p><strong>Key Contributions:</strong>
-      <ul>
-        <li>Engineered features from large-scale transactional data.</li>
-        <li>Trained and tested fraud classification models.</li>
-        <li>Implemented fraud scoring system with real-time insights.</li>
-      </ul>
-    </p>
-    <p><strong>Impact:</strong> Achieved 97.4% accuracy. Reduced false positives and improved detection speed.</p>
-  </div>
+    <section id="experience" class="section alt">
+      <h2>Work Experience</h2>
+      <div class="experience-item">
+        <h3>🔐 Information Security Intern – Bharat Electronics Limited</h3>
+        <ul>
+          <li>Performed vulnerability assessments on systems and networks.</li>
+          <li>Assisted in incident response and security threat resolution.</li>
+          <li>Researched threats and recommended proactive security measures.</li>
+        </ul>
+      </div>
+    </section>
 
-  <div class="project">
-    <h3>🧑‍⚕️ ADIP-CI Post-Operative Details Software <span class="date">(Oct 2023)</span></h3>
-    <p><strong>Overview:</strong> Created a software dashboard to monitor rehabilitation plans for cochlear implant patients.</p>
-    <p><strong>Tech Stack:</strong> HTML, CSS, JS, Firebase/SQLite, Figma (UI Design)</p>
-    <p><strong>Key Contributions:</strong>
-      <ul>
-        <li>Built forms for doctors to input post-operative observations.</li>
-        <li>Enabled personalized recovery schedules per patient.</li>
-        <li>Designed responsive and accessible UI/UX.</li>
-      </ul>
-    </p>
-    <p><strong>Impact:</strong> Improved rehab tracking and personalized care for CI patients.</p>
-  </div>
+    <section id="certifications" class="section">
+        <h2>Certifications</h2>
+        <ul>
+          <li>Advanced Machine Learning on Google Cloud</li>
+          <li>Natural Language Processing on Google Cloud</li>
+          <li>IBM Data Science Specialization</li>
+          <li>Business Intelligence – University of California</li>
+        </ul>
+    </section>
 
-</section>
+    <section id="extras" class="section alt">
+        <h2>Extras</h2>
+        <ul>
+          <li><strong>Languages:</strong> English, Hindi, Malayalam, Tamil</li>
+          <li><strong>Leadership:</strong> Kerala Representative & Event Organizer at CU</li>
+          <li><strong>NCC Cadet:</strong> Trained in discipline and physical fitness</li>
+          <li><strong>Awards:</strong> Winner - Semi-Classical Dance Competition</li>
+        </ul>
+    </section>
+  </main>
 
-
-  <section id="experience" class="section alt">
-    <h2>Work Experience</h2>
-    <h3>🔐 Information Security Intern – Bharat Electronics Limited</h3>
-    <ul>
-      <li>Performed vulnerability assessments on systems and networks.</li>
-      <li>Assisted in incident response and security threat resolution.</li>
-      <li>Researched threats and recommended proactive security measures.</li>
-    </ul>
-  </section>
-
-  <section id="certifications" class="section">
-    <h2>Certifications</h2>
-    <ul>
-      <li>Advanced Machine Learning on Google Cloud</li>
-      <li>Natural Language Processing on Google Cloud</li>
-      <li>IBM Data Science Specialization</li>
-      <li>Business Intelligence – University of California</li>
-    </ul>
-  </section>
-
-  <section id="extras" class="section alt">
-    <h2>Extras</h2>
-    <ul>
-      <li><strong>Languages:</strong> English, Hindi, Malayalam, Tamil</li>
-      <li><strong>Leadership:</strong> Kerala Representative & Event Organizer at CU</li>
-      <li><strong>NCC Cadet:</strong> Trained in discipline and physical fitness</li>
-      <li><strong>Awards:</strong> Winner - Semi-Classical Dance Competition</li>
-    </ul>
-  </section>
-
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>I’m open to internships, collaborations, and research opportunities in AI and Machine Learning.</p>
-    <p>
-      📧 <a href="mailto:annmariasebastian0909@gmail.com">annmariasebastian0909@gmail.com</a><br />
-      🔗 <a href="https://linkedin.com/in/annmariasebastian04" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/annmaria0407" target="_blank">GitHub</a><br />
-      📞 +91-8139090955
-    </p>
-    <a href="RESUME.pdf" class="btn" download>📄 Download Resume</a>
-  </section>
-
-  <footer>
-    <p>© 2025 Ann Maria Sebastian </p>
+  <footer id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>I’m open to internships, collaborations, and research opportunities in AI and Machine Learning.</p>
+      <div class="contact-links">
+        <a href="mailto:annmariasebastian0909@gmail.com">annmariasebastian0909@gmail.com</a>
+        <span>|</span>
+        <a href="https://linkedin.com/in/annmariasebastian04" target="_blank">LinkedIn</a>
+        <span>|</span>
+        <a href="https://github.com/annmaria0407" target="_blank">GitHub</a>
+        <span>|</span>
+        <span>+91-8139090955</span>
+      </div>
+      <a href="RESUME.pdf" class="btn" download>📄 Download Resume</a>
+      <p class="copyright">© 2025 Ann Maria Sebastian. Built with ❤️</p>
+    </div>
   </footer>
 </body>
-</html> using this make the portfolio more good
+</html>
