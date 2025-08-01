@@ -37,10 +37,10 @@
   <main class="container">
     <section id="about" class="section">
       <h2>About Me</h2>
-      <div class="justify-text">
-        I am a Computer Science Engineer specializing in Artificial Intelligence and Machine Learning, proudly graduated from Chandigarh University.
-        I've built intelligent systems ranging from traffic prediction to LangChain-powered diagnostics. 
-        I thrive on turning AI ideas into working solutions with Python, TensorFlow, PyTorch, and more.
+      <div style="text-align: justify;">
+        I am a Computer Science Engineer specializing in Artificial Intelligence and Machine Learning, proudly graduated from Chandigarh University. My expertise spans deep learning, NLP, and computer vision—tools I've used to build intelligent systems such as traffic prediction models and AI-based diagnostic tools. 
+        <br><br>
+        I've interned at Bharat Electronics Limited, performing vulnerability assessments and supporting cybersecurity. My stack includes Python, TensorFlow, PyTorch, SQL, and LangChain, and I work with tools like Jupyter, GitHub, and Power BI. I love building impactful solutions and collaborating on innovative projects.
       </div>
     </section>
 
@@ -57,23 +57,40 @@
 
     <section id="projects" class="section">
       <h2>Highlighted Projects</h2>
+
       <div class="project">
-        <h3>📸 AI-Powered Video-to-Photo Frame Generator <span class="date">(June 2025)</span></h3>
-        <p><strong>Overview:</strong> Pipeline to extract sharp, emotion-neutral, and unique photo frames from videos.</p>
+        <h3>📸 AI-Powered Video-to-Photo Frame Generator <span class="date">(Current)</span></h3>
+        <p><strong>Overview:</strong> Developed a pipeline that extracts sharp, emotion-neutral, and unique photo frames from videos.</p>
+        <p><strong>Tech Stack:</strong> Python, OpenCV, SQLite, DeepFace, Perceptual Hashing</p>
         <ul>
-          <li>Used blur detection, face/emotion filtering, perceptual hashing.</li>
-          <li>Stored metadata in SQLite.</li>
+          <li>Used blur detection to discard low-quality frames.</li>
+          <li>Filtered frames using face detection and emotion analysis.</li>
+          <li>Applied perceptual hashing to remove similar images.</li>
+          <li>Stored output with metadata in SQLite.</li>
         </ul>
       </div>
 
       <div class="project">
-        <h3>🚦 Beyond Traffic Jams <span class="date">(Apr 2025)</span></h3>
-        <p><strong>Overview:</strong> Deep learning system to optimize traffic with real-time predictions using LSTM + CNN.</p>
+        <h3>🚦 Beyond Traffic Jams: AI Transport Optimization <span class="date">(Apr 2025)</span></h3>
+        <p><strong>Overview:</strong> Built a deep learning system to predict and optimize real-time traffic using historical data.</p>
+        <p><strong>Tech Stack:</strong> Python, TensorFlow, Keras, LSTM, GRU, CNN</p>
+        <ul>
+          <li>Collected and preprocessed real-world traffic datasets.</li>
+          <li>Designed hybrid models to handle spatial-temporal patterns.</li>
+          <li>Visualized and evaluated prediction accuracy using Power BI.</li>
+        </ul>
       </div>
 
       <div class="project">
-        <h3>🩺 LangChain-Powered Diabetics Checker <span class="date">(Oct 2024)</span></h3>
-        <p>Conversational AI model that predicts risk level based on symptoms using OpenAI and LangChain.</p>
+        <h3>🩺 Early Stage Diabetes Prediction using LangChain <span class="date">(Oct 2024)</span></h3>
+        <p><strong>Overview:</strong> Built a conversational AI model to predict diabetes from user symptoms using LLMs.</p>
+        <p><strong>Tech Stack:</strong> Python, LangChain, OpenAI API, NLP</p>
+      </div>
+
+      <div class="project">
+        <h3>💳 AI-Based Fraud Detection for Financial Transactions <span class="date">(May 2024)</span></h3>
+        <p><strong>Overview:</strong> Built a machine learning system to detect fraudulent patterns in banking data.</p>
+        <p><strong>Tech Stack:</strong> Python, Scikit-learn, Random Forest, Power BI</p>
       </div>
     </section>
 
@@ -89,15 +106,26 @@
     <section id="certifications" class="section">
       <h2>Certifications</h2>
       <ul>
-        <li>Google Cloud: Advanced ML & NLP</li>
+        <li>Advanced Machine Learning – Google Cloud</li>
+        <li>Natural Language Processing – Google Cloud</li>
         <li>IBM Data Science Specialization</li>
-        <li>BI from University of California</li>
+        <li>Business Intelligence – University of California</li>
+      </ul>
+    </section>
+    
+    <section id="extras" class="section alt">
+      <h2>Extras</h2>
+      <ul>
+        <li><strong>Languages:</strong> English, Hindi, Malayalam, Tamil</li>
+        <li><strong>Leadership:</strong> Kerala Representative & Event Organizer at CU</li>
+        <li><strong>NCC Cadet:</strong> Trained in discipline and physical fitness</li>
+        <li><strong>Awards:</strong> Winner – Semi-Classical Dance Competition</li>
       </ul>
     </section>
 
     <section id="contact" class="section">
       <h2>Contact Me</h2>
-      <p>I’m open to internships, collaborations, and research opportunities.</p>
+      <p>I’m open to internships, collaborations, and research opportunities in AI and Machine Learning.</p>
       <p>
         📧 <a href="mailto:annmariasebastian0909@gmail.com">annmariasebastian0909@gmail.com</a><br />
         🔗 <a href="https://linkedin.com/in/annmariasebastian04" target="_blank" rel="noopener">LinkedIn</a> |
@@ -115,73 +143,3 @@
   </footer>
 </body>
 </html>
-<style>
-  body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    }
-  .justify-text {
-    text-align: justify;
-  }
-  .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-  }
-  .navbar {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-  }
-  .nav-brand {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-  }
-  .nav-menu {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 20px;
-  }
-  .nav-menu li {
-    margin-left: 20px;
-  }
-  .nav-menu a {
-    color: white;
-    text-decoration: none;
-  }
-  .hero {
-    background-color: #f4f4f4;
-    padding: 50px 0;
-    text-align: center;
-  }
-  .hero-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .profile-pic {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-    margin-bottom: 20px;
-  }
-  .intro h1 {
-    font-size: 2.5em;
-    margin: 0;
-  }
-  .intro p {
-    font-size: 1.2em;
-    margin: 10px 0;
-  }
-  .btn {
-      background-color: #007bff;
-      color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-    }
