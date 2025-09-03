@@ -7,11 +7,7 @@
   --text-light: #555;
   --bg-light: #ffffff;
   --bg-main: #f9f9fc;
-  --font-heading: 'Poppins', sans-serif;
-  --font-body: 'Roboto', sans-serif;
-  --shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
+  --font-heading:
 * {
   margin: 0;
   padding: 0;
